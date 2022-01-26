@@ -109,7 +109,7 @@ Citizen c=(Citizen) session.getAttribute("citizen");
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-          <% out.println("<img src=\"data:image/*;base64,"+c.getImage()+" alt=\"Profile\" class=\"rounded-circle\"/>");  %>
+            <% out.println("<img alt=\"\" src=\"data:image/*;base64,"+c.getImage()+"\" width=\"60\" height=\"70\" class=\"rounded-circle\"/>");  %>
             <span class="d-none d-md-block dropdown-toggle ps-2"><%out.println(c.getName()); %></span>
           </a><!-- End Profile Iamge Icon -->
 
